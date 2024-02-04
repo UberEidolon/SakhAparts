@@ -3,7 +3,6 @@ from django.db import models
 class Apartment(models.Model):
     adress = models.CharField(max_length=200)
     
-
 class BookedDate(models.Model):
     apartment = models.ForeignKey(
         Apartment,
