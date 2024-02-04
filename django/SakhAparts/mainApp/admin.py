@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import ListItem
+from .models import *
 
-# Register your models here.
-admin.site.register(ListItem)
+
+admin.site.register([Apartment, BookedDate, User])
