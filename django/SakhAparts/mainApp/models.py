@@ -8,7 +8,8 @@ class BookedDate(models.Model):
         Apartment,
         on_delete=models.CASCADE,
         )
-    date = models.DateTimeField()
+    date_from = models.DateTimeField()
+    date_until = models.DateTimeField()
 
 class User(models.Model):
     first_name = models.CharField(max_length=200)
