@@ -2,6 +2,11 @@ from django.db import models
 
 class Apartment(models.Model):
     adress = models.CharField(max_length=200)
+    image = models.ImageField(upload_to="images")
+    # cost = models.IntegerField() #TODO
+
+class ImageNames(models.Model):
+    pass
     
 class BookedDate(models.Model):
     apartment = models.ForeignKey(

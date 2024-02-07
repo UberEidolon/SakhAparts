@@ -1,2 +1,5 @@
-venv
+sakhvenv
 django/SakhAparts/db.sqlite3
+django/SakhAparts/media/
+django/SakhAparts/mainApp/templates/home.html
+django/SakhAparts/mainApp/templates/list.html

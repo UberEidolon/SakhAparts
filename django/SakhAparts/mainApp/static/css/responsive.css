@@ -49,7 +49,7 @@
 	.welcome-hero-txt h2 {font-size: 24px;}
 	.single-welcome-hero {height:auto;background: transparent;padding: 100px 0;display: block;}
 	.welcome-hero-txt {padding-top: 80px;}
-	.single-welcome-hero-form {flex-direction: column;width: 100%;background: #fff; margin: 15px 0;padding: 20px 0;}
+	.single-welcome-hero-form {flex-direction: column;width: 100%;background: #fff; margin: 8px; padding: 15px;}
 	.welcome-hero-form {width: 100%;flex-direction: column;height: 250px;background: transparent;}
 
 	.list-topics-content {top: 0;margin: 60px auto;}
